@@ -38,7 +38,7 @@ if ( is_active_sidebar( 'fc-1' ) || is_active_sidebar( 'fc-2' ) || is_active_sid
          <div id="copyright-area">
          <div class="copyright-wrapper">
         	<div class="container">
-           		 <div class="copyright-txt"><?php echo esc_html('SKT IT Solutions');?></div>
+           		 <div class="copyright-txt">Copyright &#169; <?php echo  esc_html(bloginfo( 'name' )) . " " . date("Y");?></div>
                  <div class="clear"></div>
             </div>           
         </div>
